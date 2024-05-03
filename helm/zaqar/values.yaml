@@ -21,6 +21,10 @@ service:
 
 environment: 
   SENDGRID_APIKEY:
+  DEFAULT_FROM_ADDRESS:
+  DEFAULT_FROM_NAME:
+  AUTH_USERNAME:
+  AUTH_PASSWORD:
 
 resources:
   requests:
