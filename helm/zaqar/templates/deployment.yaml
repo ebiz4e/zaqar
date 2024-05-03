@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
         - name: {{ .Chart.Name }}
-          image: "docker.pkg.github.com/khaosdoctor/zaqar/zaqar:v{{ default .Chart.Version .Values.image.tag }}"
+          image: "loinv4/zaqar:latest"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           env:
             - name: SENDGRID_APIKEY
