@@ -19,7 +19,8 @@ service:
   port: 80
   portName: http
 
-environment: {}
+environment: 
+  SENDGRID_APIKEY:
 
 resources:
   requests:
